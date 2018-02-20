@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS\CM3 -I..\CMSIS\CM3\CORE -I..\CMSIS\CM3\STARTUP -I..\CMSIS\STM32LIB\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\USB\USBLIB\inc -I..\USB\Mass_Storage\inc -I..\HARDWARE -I..\HARDWARE\LED -I..\HARDWARE\tft -I..\Com-Rule -I..\HARDWARE\AD9834 -I..\HARDWARE\AD9851 -I..\HARDWARE\AD9854 -I..\HARDWARE\AD9954 -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\HARDWARE\AD9833 -I..\HARDWARE\DAC7811 -I..\HARDWARE\KEY -I..\HARDWARE\AD5444 -I..\Soft\Task -I..\HARDWARE\DAC8552 -I..\HARDWARE\MCP410XX -I..\HARDWARE\PE4302 -I..\HARDWARE\ADF4351 -I..\HARDWARE\ad9910 -I..\HARDWARE\ad4002 -I..\HARDWARE\TIMER -I..\HARDWARE\ad9910
+-I E:\黄鸯鸯\毕业设计\数据采集系统\程序\下位机\程序编写\测试\串口收发\USER\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+-DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d --feedback "..\OBJ\VirtualCOMPort.fed" "..\HARDWARE\KEY\key.c"
